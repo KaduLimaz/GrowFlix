@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.btn-growflix {
+
+    background-color: #e50914;
+    color: fffff;
+    padding: 20px 35px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.btn:hover {
+    background-color: #e50914;
+}
+
+.banner-inicial {
+    background: url(../image/banner-initial.png) no-repeat center top fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
