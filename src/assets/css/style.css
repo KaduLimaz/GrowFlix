@@ -2,6 +2,8 @@ body {
     background-color: black;
 }
 
+
+
 .btn-growflix {
 
     background-color: #e50914;
@@ -19,4 +21,36 @@ body {
     background-attachment: fixed;
     background-size: cover;
     
+}
+
+
+/* Accordion */
+
+.accordion-button {
+    background-color:#303030 !important;
+    
+    
+}
+
+.accordion {
+    --bs-border-color: #303030 !important; 
+}
+
+
+
+.accordion-button::after {
+    background-image: url(../image/add.svg) !important;
+  }
+
+ 
+ /* home */
+
+ .bg-home {
+    background: url(../image/growcast-01.png) center top/cover no-repeat ;
+    min-height: 720px;
+}
+
+.row-home-growcast {
+    align-items: flex-end;
+    min-height: 680px;
 }
